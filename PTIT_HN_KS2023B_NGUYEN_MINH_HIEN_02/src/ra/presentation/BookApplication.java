@@ -85,6 +85,7 @@ public class BookApplication {
                         for (int j = i; j < currentBook; j++) {
                             books[j] = books[j + 1];
                         }
+                        currentBook--;
                         System.out.println("Cuốn sách đã xóa");
                         break;
                     case 2:
